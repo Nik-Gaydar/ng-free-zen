@@ -237,5 +237,40 @@
       </a>
     </div>
   </footer>
+
+  <div class="modal" id="modal">
+    <div class="modal__body">
+      <button class="modal__close" id="modal-close" >
+        <img src="/assets/icons/close.svg" alt="close">
+      </button>
+      <h3 class="modal__title">Order a consultation</h3>
+      <form class="form" id="order">
+        <label class="form__input">
+          <span>Name</span>
+          <input type="text" id="name">
+        </label>
+        <label class="form__input">
+          <span>Tel.</span>
+          <input type="tel" id="tel">
+        </label>
+        <label class="form__input">
+          <span>E-mail</span>
+          <input type="email" id="email">
+        </label>
+        <label class="form__select">
+          <span>Connection</span>
+          <select id="connection">
+            <option value="telegramm">Telegramm</option>
+            <option value="whatsapp">WhatsApp</option>
+          </select>
+        </label>
+        <label class="form__checkbox">
+          <input type="checkbox" id="policy">
+          <a href="https://example.com/policy" target="_blank">Privacy policy</a>
+        </label>
+        <button class="form__submit">Submit</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>

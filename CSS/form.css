@@ -1,0 +1,81 @@
+.form {
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.form__input {
+  /* margin-bottom: 15px; */
+  /* border-bottom: 1px solid #AAAAAA; */
+}
+
+.form__input:first-of-type {
+  /* margin-top: 20px; */
+}
+
+.form__select {
+  /* position: relative; */
+  /* margin-bottom: 15px; */
+  /* border-bottom: 1px solid #AAAAAA; */
+  /* border: 1px dashed red; */
+}
+
+.form__select::after {
+  /* content: "▼"; */
+  /* position: absolute; */
+  /* top: 50%; */
+  /* right: 0; */
+  /* transform: translateY(-50%); */
+  /* font-size: 14px; */
+  /* color: #AAAAAA; */
+}
+
+.form__checkbox {}
+
+.form__checkbox a {
+  /* border-bottom: 1px solid #AAAAAA; */
+}
+
+.form__submit {
+  /* margin-top: 20px; */
+  /* height: 40px; */
+  /* border: 1px solid #222222; */
+  /* border-radius: 30px; */
+}
+
+span {
+  /* color: #AAAAAA; */
+}
+
+/* Решение по видео */
+
+.form {
+  display: grid;
+  gap: 15px;
+}
+
+.form__input {
+  display: block;
+  border-bottom: 1px solid #AAAAAA;
+}
+
+.form__input input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+}
+
+.form__input input::placeholder {
+  color: #AAAAAA;
+}
+
+.form__select {
+  display: none;
+}
+
+.form__checkbox {
+  display: none;
+}
+
+.form__submit {
+  margin-top: 5px;
+}

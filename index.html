@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="CSS/fonts.css">
   <link rel="stylesheet" href="CSS/modal.css">
   <link rel="stylesheet" href="CSS/clients.css">
+  <link rel="stylesheet" href="CSS/form.css">
 </head>
 <body>
   <header class="header">
@@ -257,7 +258,7 @@
     </div>
   </footer>
 
-  <div class="modal" id="modal">
+  <div class="modal active" id="modal">
     <div class="modal__body">
       <button class="modal__close" id="modal-close" >
         <img src="/assets/icons/close.svg" alt="close">
@@ -265,20 +266,18 @@
       <h3 class="modal__title">Order a consultation</h3>
       <form class="form" id="order">
         <label class="form__input">
-          <span>Name</span>
-          <input type="text" id="name">
+          <input type="text" placeholder="Name" id="name">
         </label>
         <label class="form__input">
-          <span>Tel.</span>
-          <input type="tel" id="tel">
+          <input type="tel" placeholder="Tel" id="tel">
         </label>
         <label class="form__input">
-          <span>E-mail</span>
-          <input type="email" id="email">
+          <input type="email" placeholder="E-mail" id="email">
         </label>
         <label class="form__select">
           <span>Connection</span>
           <select id="connection">
+            <option value="" selected disabled></option>
             <option value="telegramm">Telegramm</option>
             <option value="whatsapp">WhatsApp</option>
           </select>

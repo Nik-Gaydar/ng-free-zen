@@ -39,13 +39,29 @@
   outline: 0;
 }
 
+.form__field img {
+  position: absolute;
+  top: 10px;
+  right: 4px;
+  width: 10px;
+  height: 10px;
+}
+
 .form__checkbox {
   display: flex;
+  align-items: center;
+}
+
+.form__checkbox input {
+  width: 14px;
+  height: 14px;
+  appearance: revert;
+  cursor: pointer;
 }
 
 .form__checkbox a {
   margin-left: 5px;
-  border-bottom: 1px solid #222222 ;
+  text-decoration: underline;
   font-size: 14px;
 }
 

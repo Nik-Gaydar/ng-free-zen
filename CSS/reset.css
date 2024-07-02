@@ -36,7 +36,7 @@ h6 {
 
 input,
 select {
-  /* appearance: none; */
+  appearance: none;
   background: none;
   border: none;
   outline: none;

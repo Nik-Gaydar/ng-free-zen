@@ -40,3 +40,33 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (min-width: 1152px) {
+  .care {
+    padding: 40px 0;
+  }
+  
+  .care__wrapper {
+    width: 930px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .care__text {
+    flex: 445px;
+  }
+
+  .care__title {
+    font-size: 42px;
+  }
+
+  .care__copy {
+    font-size: 18px;
+  }
+
+  .care__image {
+    height: 31vw
+  }
+}

@@ -12,3 +12,18 @@
 }
 
 /* .clients__brand {} */
+
+@media (min-width: 1152px) {
+  .clients {
+    padding: 40px 0;
+  }
+
+  .clients__wrapper {
+    width: 930px;
+    margin: 0 auto;
+  }
+
+  .clients__brand {
+    height: 9vh;
+  }
+}

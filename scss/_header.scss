@@ -65,3 +65,10 @@
   height: 26px;
   width: 26px;
 }
+
+@media (min-width: 1152px) {
+  .header__wrapper {
+    width: 930px;
+    margin: 0 auto;
+  }
+}

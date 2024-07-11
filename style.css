@@ -269,6 +269,33 @@ img {
   object-fit: cover;
 }
 
+@media (min-width: 768px) {
+  .download {
+    padding: 30px 0;
+  }
+  .download__wrapper {
+    width: 690px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+  .download__image {
+    height: 34vw;
+  }
+  .download__text {
+    flex: 48%;
+  }
+  .download__title {
+    font-size: 36px;
+  }
+  .download__copy {
+    font-size: 14px;
+  }
+  .download__links {
+    flex-direction: row;
+  }
+}
 @media (min-width: 1152px) {
   .download {
     padding: 40px 0;
@@ -284,7 +311,7 @@ img {
     height: 31vw;
   }
   .download__text {
-    flex: 445px;
+    flex: 48%;
   }
   .download__title {
     font-size: 42px;
@@ -336,6 +363,30 @@ img {
   object-fit: cover;
 }
 
+@media (min-width: 768px) {
+  .warranty {
+    padding: 30px 0;
+  }
+  .warranty__wrapper {
+    width: 690px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 30px;
+  }
+  .warranty__text {
+    flex: 48%;
+  }
+  .warranty__title {
+    font-size: 30px;
+  }
+  .warranty__copy {
+    font-size: 14px;
+  }
+  .warranty__image {
+    height: 34vw;
+  }
+}
 @media (min-width: 1152px) {
   .warranty {
     padding: 40px 0;
@@ -348,12 +399,12 @@ img {
     gap: 40px;
   }
   .warranty__text {
-    flex: 445px;
+    flex: 48%;
   }
-  .download__title {
-    font-size: 42px;
+  .warranty__title {
+    font-size: 34px;
   }
-  .download__copy {
+  .warranty__copy {
     font-size: 18px;
   }
   .warranty__image {
@@ -400,6 +451,30 @@ img {
   object-fit: cover;
 }
 
+@media (min-width: 768px) {
+  .care {
+    padding: 30px 0;
+  }
+  .care__wrapper {
+    width: 690px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+  .care__text {
+    flex: 48%;
+  }
+  .care__title {
+    font-size: 30px;
+  }
+  .care__copy {
+    font-size: 14px;
+  }
+  .care__image {
+    height: 34vw;
+  }
+}
 @media (min-width: 1152px) {
   .care {
     padding: 40px 0;
@@ -412,10 +487,10 @@ img {
     gap: 40px;
   }
   .care__text {
-    flex: 445px;
+    flex: 48%;
   }
   .care__title {
-    font-size: 42px;
+    font-size: 34px;
   }
   .care__copy {
     font-size: 18px;
@@ -450,27 +525,56 @@ img {
   margin-top: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   height: 50px;
   border: 1px solid #AAAAAA;
   border-radius: 30px;
 }
 
+@media (min-width: 768px) {
+  .cashback {
+    padding: 30px 0;
+  }
+  .cashback__wrapper {
+    width: 460px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .cashback__text {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cashback__title {
+    font-size: 30px;
+  }
+  .cashback__copy {
+    font-size: 16px;
+  }
+  .cashback__button {
+    width: 226px;
+    font-size: 16px;
+  }
+}
 @media (min-width: 1152px) {
   .cashback {
     padding: 40px 0;
   }
   .cashback__wrapper {
-    width: 930px;
+    width: 500px;
     margin: 0 auto;
     text-align: center;
   }
   .cashback__text {
-    width: 500px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .cashback__title {
-    font-size: 42px;
+    font-size: 34px;
   }
   .cashback__copy {
     font-size: 18px;
@@ -491,17 +595,23 @@ img {
   gap: 30px;
 }
 
-/* .clients__brand {} */
+.clients__brand img {
+  width: 23vh;
+  height: 6vh;
+  object-fit: cover;
+}
+
 @media (min-width: 1152px) {
-  .clients {
-    padding: 40px 0;
-  }
   .clients__wrapper {
     width: 930px;
     margin: 0 auto;
+    padding: 40px 0;
   }
-  .clients__brand {
-    height: 9vh;
+  .clients__brands {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
   }
 }
 /* footer */
@@ -543,6 +653,19 @@ img {
   height: 46px;
 }
 
+@media (min-width: 1152px) {
+  .footer__wrapper {
+    width: 930px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  .footer__columns {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .footer__imfo {
+    grid-template-columns: auto 240px;
+  }
+}
 /* column */
 /* .column {} */
 .column img {

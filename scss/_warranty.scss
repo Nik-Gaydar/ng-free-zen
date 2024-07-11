@@ -41,6 +41,36 @@
   object-fit: cover;
 }
 
+@media (min-width: 768px) {
+  .warranty {
+    padding: 30px 0;
+  }
+
+  .warranty__wrapper {
+    width: 690px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .warranty__text {
+    flex: 48%;
+  }
+ 
+  .warranty__title {
+    font-size: 30px;
+  }
+
+  .warranty__copy {
+    font-size: 14px;
+  }
+
+  .warranty__image {
+    height: 34vw
+  }
+}
+
 @media (min-width: 1152px) {
   .warranty {
     padding: 40px 0;
@@ -55,14 +85,14 @@
   }
 
   .warranty__text {
-    flex: 445px;
+    flex: 48%;
   }
 
-  .download__title {
-    font-size: 42px;
+  .warranty__title {
+    font-size: 34px;
   }
 
-  .download__copy  {
+  .warranty__copy  {
     font-size: 18px;
   }
 

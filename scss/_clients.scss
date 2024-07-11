@@ -8,22 +8,27 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
-  
 }
 
-/* .clients__brand {} */
+// .clients__brand {} 
+
+.clients__brand img {
+  width: 23vh;
+  height: 6vh;
+  object-fit: cover;
+}
 
 @media (min-width: 1152px) {
-  .clients {
-    padding: 40px 0;
-  }
-
   .clients__wrapper {
     width: 930px;
     margin: 0 auto;
+    padding: 40px 0;
   }
 
-  .clients__brand {
-    height: 9vh;
+  .clients__brands {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
   }
 }

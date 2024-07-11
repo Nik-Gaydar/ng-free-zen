@@ -37,3 +37,19 @@
   width: 130px;
   height: 46px;
 }
+
+@media (min-width: 1152px) {
+  .footer__wrapper {
+    width: 930px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  .footer__columns {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .footer__imfo {
+    grid-template-columns: auto 240px;
+  }
+}

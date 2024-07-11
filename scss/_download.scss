@@ -48,6 +48,40 @@
   object-fit: cover;
 }
 
+@media (min-width: 768px) {
+  .download {
+    padding: 30px 0;
+  }
+
+  .download__wrapper {
+    width: 690px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .download__image {
+    height: 34vw;
+  }
+
+  .download__text {
+    flex: 48%;
+  }
+
+  .download__title {
+    font-size: 36px;
+  }
+
+  .download__copy  {
+    font-size: 14px;
+  }
+
+  .download__links {
+    flex-direction: row;
+  }
+}
+
 @media (min-width: 1152px) {
   .download {
     padding: 40px 0;
@@ -66,7 +100,7 @@
   }
 
   .download__text {
-    flex: 445px;
+    flex: 48%;
   }
 
   .download__title {

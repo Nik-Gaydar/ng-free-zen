@@ -1,7 +1,7 @@
 /* cashback */
 
 .cashback {
-  padding: 30px 15px;
+  padding: $main-padding;
 }
 
 /* .cashback__wrapper {} */
@@ -9,18 +9,18 @@
 /* .cashback__text {} */
 
 .cashback__title {
-  font-size: 26px;
+  font-size: $title-size;
   font-weight: 700;
 }
 
 .cashback__copy {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: $copy-size;
   font-weight: 400;
 }
 
 .cashback__copy:first-of-type {
-  margin-top: 20px;
+  margin-top: $rounding-image;
 }
 
 .cashback__button {
@@ -31,5 +31,5 @@
   width: 100%;
   height: 50px;
   border: 1px solid #AAAAAA;
-  border-radius: 30px;
+  border-radius: $rounding-btn;
 }

@@ -1,7 +1,7 @@
 /* care */
 
 .care {
-  padding: 30px 15px;
+  padding: $main-padding;
 }
 
 .care__wrapper {
@@ -14,7 +14,7 @@
 /* .care__text {} */
 
 .care__title {
-  font-size: 26px;
+  font-size: $title-size;
   font-weight: 700;
 }
 
@@ -24,14 +24,14 @@
 
 .care__copy {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: $copy-size;
   font-weight: 400;
 }
 
 .care__image {
   height: 72vw;
   border: 1px solid #AAAAAA;
-  border-radius: 20px;
+  border-radius: $rounding-image;
   overflow: hidden;
 }
 

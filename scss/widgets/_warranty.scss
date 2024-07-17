@@ -1,7 +1,7 @@
 /* warranty */
 
 .warranty {
-  padding: 30px 15px; 
+  padding: $main-padding;
 }
 
 .warranty__wrapper {
@@ -13,7 +13,7 @@
 /* .warranty__text {} */
 
 .warranty__title {
-  font-size: 26px;
+  font-size: $title-size;
   font-weight: 700;
 
 }
@@ -24,13 +24,13 @@
 
 .warranty__copy {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: $copy-size;
   font-weight: 400;
 }
 
 .warranty__image {
   height: 72vw; 
   border: 1px solid #AAAAAA;
-  border-radius: 20px;
+  border-radius: $rounding-image;
   overflow: hidden;
 }

@@ -1,14 +1,13 @@
 /* clients */
 
-.clients__wrapper {
-  padding: 30px 15px;
-}
+.clients {
+  &__wrapper {
+    padding: var(--section-padding-320);
+  }
 
-.clients__brands {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  
+  &__brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
 }
-
-/* .clients__brand {} */

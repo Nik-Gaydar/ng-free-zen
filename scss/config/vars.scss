@@ -1,4 +1,5 @@
-// main margins:
+.root {
+  // main margins:
 --section-padding-320: 30px 15px;
 
 // fonts:
@@ -6,5 +7,6 @@
 --copy-size-320: 14px;
 
 // rounding:
---rounding--320: 20px;
+--rounding-image-320: 20px;
 --rounding-btn-320: 30px;
+}

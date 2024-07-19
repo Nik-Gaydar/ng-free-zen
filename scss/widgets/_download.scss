@@ -35,7 +35,7 @@
   &__image {
     height: 72vw;
     border: 1px solid #AAAAAA;
-    border-radius: 20px;
+    border-radius: var(--rounding-image-320);
     overflow: hidden;
 
     img {

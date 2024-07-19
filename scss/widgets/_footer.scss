@@ -3,7 +3,7 @@
 .footer {
   padding: var(--section-padding-320);
   color: #FFFFFF;
-  background: #484848;
+  background: var(--bg-footer);
 
   &__wrapper {
     display: grid;

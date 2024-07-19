@@ -2,6 +2,7 @@
 
 .warranty {
   padding: var(--section-padding-320);
+  background: var(--bg-primary);
 
   &__wrapper {
     display: flex;
@@ -12,12 +13,14 @@
   &__title {
     font-size: var(--title-size-320);
     font-weight: 700;
+    color: var(--color-title);
   }
 
   &__copy {
     margin-top: 10px;
     font-size: var(--copy-size-320);
     font-weight: 400;
+    color: var(--color-copy);
   
     &:first-of-type {
       margin-top: 20px;
@@ -26,7 +29,7 @@
 
   &__image {
     height: 72vw; 
-    border: 1px solid #AAAAAA;
+    border: 1px solid var(--border-primary);
     border-radius: var(--rounding-image-320);
     overflow: hidden;
   }

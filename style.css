@@ -96,6 +96,7 @@ img {
   --border-lang-btn: #000000;
   --bg-primary: #FFFFFF;
   --bg-footer: #484848;
+  --bg-burger: #000000;
 }
 .root.dark {
   --color-title: #FFFFFF;
@@ -107,21 +108,18 @@ img {
   --border-lang-btn: #FFFFFF;
   --bg-primary: #484848;
   --bg-footer: #484848;
+  --bg-burger: #FFFFFF;
 }
 
 /* column */
-/* .column {} */
 .column img {
   width: 40px;
   height: 40px;
 }
-
 .column__title {
   font-size: 16px;
   font-weight: 700;
 }
-
-/* .column__list {} */
 .column__item {
   margin-top: 10px;
   font-size: 14px;
@@ -129,52 +127,46 @@ img {
 }
 
 /* burger */
-.burger {
+.header__burger {
   width: 30px;
   height: 20px;
   position: relative;
 }
-
-.burger.active::before {
+.header__burger.active::before {
   top: 50%;
   transform: translateY(-50%) rotate(45deg);
   transition: all 0.5s;
 }
-
-.burger.active span {
+.header__burger.active span {
   display: none;
 }
-
-.burger.active::after {
+.header__burger.active::after {
   bottom: 50%;
   transform: translateY(50%) rotate(-45deg);
   transition: all 0.5s;
 }
-
-.burger::before {
+.header__burger::before {
   content: "";
   display: block;
   width: 100%;
   height: 2px;
-  background: #000000;
+  background: var(--bg-burger);
   position: absolute;
   top: 0;
   left: 0;
 }
-
-.burger span {
+.header__burger span {
   display: block;
   width: 100%;
   height: 2px;
-  background: #000000;
+  background: var(--bg-burger);
 }
-
-.burger::after {
+.header__burger::after {
   content: "";
   display: block;
   width: 100%;
   height: 2px;
-  background: #000000;
+  background: var(--bg-burger);
   position: absolute;
   bottom: 0;
 }
@@ -184,7 +176,6 @@ img {
   display: none;
   background: #FFFFFF;
 }
-
 .menu.active {
   display: block;
   position: fixed;
@@ -192,7 +183,6 @@ img {
   left: 0;
   right: 0;
 }
-
 .menu__item {
   padding: 24px 15px;
   font-size: 24px;
@@ -204,25 +194,21 @@ img {
   display: grid;
   gap: 15px;
 }
-
 .form__field {
   position: relative;
   display: block;
   height: 30px;
   border-bottom: 1px solid #AAAAAA;
 }
-
 .form__field input {
   display: block;
   width: 100%;
   padding: 5px;
 }
-
 .form__field input::placeholder {
   font-size: 16px;
   color: #AAAAAA;
 }
-
 .form__field span {
   position: absolute;
   bottom: 4px;
@@ -230,7 +216,6 @@ img {
   font-size: 16px;
   color: #AAAAAA;
 }
-
 .form__field select {
   position: relative;
   z-index: 1;
@@ -240,7 +225,6 @@ img {
   padding: 5px;
   outline: 0;
 }
-
 .form__field img {
   position: absolute;
   top: 10px;
@@ -248,25 +232,21 @@ img {
   width: 10px;
   height: 10px;
 }
-
 .form__checkbox {
   display: flex;
   align-items: center;
 }
-
 .form__checkbox input {
   width: 14px;
   height: 14px;
   appearance: revert;
   cursor: pointer;
 }
-
 .form__checkbox a {
   margin-left: 5px;
   text-decoration: underline;
   font-size: 14px;
 }
-
 .form__submit {
   margin-top: 5px;
   padding: 8px;

@@ -1,21 +1,19 @@
 /* column */
 
-/* .column {} */
+.column {
+  img {
+    width: 40px;
+    height: 40px;
+  }
 
-.column img {
-  width: 40px;
-  height: 40px;
-}
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+  }
 
-.column__title {
-  font-size: 16px;
-  font-weight: 700;
-}
-
-/* .column__list {} */
-
-.column__item {
-  margin-top: 10px;
-  font-size: 14px;
-  font-weight: 400;
-}
+  &__item {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+} 

@@ -1,0 +1,19 @@
+/* column */
+
+.column {
+  img {
+    width: 40px;
+    height: 40px;
+  }
+
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  &__item {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+} 

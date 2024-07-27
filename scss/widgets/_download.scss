@@ -1,0 +1,50 @@
+// download
+
+.download {
+  padding: var(--section-padding-320);
+  background: var(--bg-primary);
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px ;
+  }
+
+  &__title {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--color-title);
+  }
+
+  &__copy {
+    margin-top: 20px;
+    color: var(--color-copy);
+  }
+
+  &__links {
+    margin-top: 20px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  &__link {
+    display: block;
+    width: 150px;
+    height: 44px;
+  }
+
+  &__image {
+    height: 72vw;
+    border: 1px solid var(--border-primary);
+    border-radius: var(--rounding-image-320);
+    overflow: hidden;
+
+    img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    }
+  }
+}

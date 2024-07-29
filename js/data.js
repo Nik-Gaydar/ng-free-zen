@@ -47,55 +47,154 @@ const cashback = {
   buttonText: 'Order a consultation',
 };
 
-console.log(cashback );
+console.log(cashback);
 
-// const clients = {
-//   brand_1: [
-//     {
-//       source: 'assets/brands/1.svg',
-//       description: 'Brand 1',
-//     },
-//   ],
-//   brand_2: [
-//     {
-//       source: 'assets/brands/2.svg',
-//       description: 'Brand 2',
-//     },
-//   ],
-//   brand_3: [
-//     {
-//       source: 'assets/brands/3.svg',
-//       description: 'Brand 3',
-//     },
-//   ],
-//   brand_4: [
-//     {
-//       source: 'assets/brands/4.svg',
-//       description: 'Brand 4',
-//     },
-//   ],
-//   brand_5: [
-//     {
-//       source: 'assets/brands/5.svg',
-//       description: 'Brand 5',
-//     },
-//   ],
-//   brand_6: [
-//     {
-//       source: 'assets/brands/6.svg',
-//       description: 'Brand 6',
-//     },
-//   ],
-//   brand_7: [
-//     {
-//       source: 'assets/brands/7.svg',
-//       description: 'Brand 7',
-//     },
-//   ],
-//   brand_8: [
-//     {
-//       source: 'assets/brands/8.svg',
-//       description: 'Brand 8',
-//     },
-//   ],
-// }
+const clients = {
+  brands: [
+    {
+      lightSource: './assets/brands/light/1.svg',
+      darkSource: './assets/brands/dark/1.svg',
+      description: 'Brand 1',
+    },
+    {
+      lightSource: './assets/brands/light/2.svg',
+      darkSource: './assets/brands/dark/2.svg',
+      description: 'Brand 2',
+    },
+    {
+      lightSource: './assets/brands/light/3.svg',
+      darkSource: './assets/brands/dark/3.svg',
+      description: 'Brand 3',
+    },
+    {
+      lightSource: './assets/brands/light/4.svg',
+      darkSource: './assets/brands/dark/4.svg',
+      description: 'Brand 4',
+    },
+    {
+      lightSource: './assets/brands/light/5.svg',
+      darkSource: './assets/brands/dark/5.svg',
+      description: 'Brand 5',
+    },
+    {
+      lightSource: './assets/brands/light/6.svg',
+      darkSource: './assets/brands/dark/6.svg',
+      description: 'Brand 6',
+    },
+    {
+      lightSource: './assets/brands/light/7.svg',
+      darkSource: './assets/brands/dark/7.svg',
+      description: 'Brand 7',
+    },
+    {
+      lightSource: './assets/brands/light/8.svg',
+      darkSource: './assets/brands/dark/8.svg',
+      description: 'Brand 8',
+    },
+  ],
+};
+
+console.log(clients);
+
+const footer = {
+  columns: [
+    {
+      title: 'Learn',
+      links: [
+        {
+          text: 'Help center',
+          url: 'https://',
+        },
+        {
+          text: 'Join ZEN team',
+          url: 'https://',
+        },
+        {
+          text: 'Privacy Policy',
+          url: 'https://',
+        },
+        {
+          text: 'Cookies',
+          url: 'https://',
+        },
+        {
+          text: 'Terms of use',
+          url: 'https://',
+        },
+      ],
+    },
+    {
+      title: 'Discover',
+      links: [
+        {
+          text: 'For developers',
+          url: 'https://',
+        },
+        {
+          text: 'Apple Pay',
+          url: 'https://',
+        },
+        {
+          text: 'Google Pay',
+          url: 'https://',
+        },
+      ],
+    },
+    {
+      title: 'Offer',
+      links: [
+        {
+          text: 'Business',
+          url: 'https://',
+        },
+        {
+          text: 'Personal',
+          url: 'https://',
+        },
+      ],
+    },
+    {
+      title: 'Language',
+      links: [
+        {
+          text: 'English',
+          url: 'https://',
+        },
+        {
+          text: 'Polish',
+          url: 'https://',
+        },
+      ],
+    },
+    {
+      title: 'Follow us',
+      links: [
+        {
+          source: './assets/icons/in.svg',
+          url: 'https://',
+        },
+      ],
+    },
+    {
+      title: 'Contact',
+      links: [
+        {
+          text: 'hello@zen.com',
+          url: 'https://',
+        },
+      ],
+    },
+  ],
+  info: {
+    texts: [
+      'Paragraph 1',
+      'Paragraph 2',
+      'Paragraph 3',
+      'Paragraph 4',
+      'Paragraph 5',
+      'Paragraph 6',
+    ],
+  },
+};
+
+console.log(footer);

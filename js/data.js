@@ -1,4 +1,51 @@
-const download = {
+export const menu = {
+  navigation: [
+    {
+      text: 'Download',
+      anchor: '#download',
+    },
+    {
+      text: 'Warranty',
+      anchor: '#warranty',
+    },
+    {
+      text: 'Care',
+      anchor: '#care',
+    },
+    {
+      text: 'Cashback',
+      anchor: '#cashback',
+    },
+    {
+      text: 'Clients',
+      anchor: '#clients',
+    },
+  ],
+  langButton: {
+    enButton: {
+      text: 'EN',
+      value: 'en',
+    },
+    ruButton: {
+      text: 'RU',
+      value: 'ru',
+    },
+  },
+  themeButton: {
+    moonIcon: {
+      source: './assets/icons/theme.svg',
+      description: 'moon',
+    },
+    sunIcon: {
+      source: '',
+      description: 'sun',
+    },
+  },
+};
+
+console.log(menu);
+
+export const download = {
   title: 'Peaceful shopping mindful money',
   texts: ['Paragraph 1'],
   links: [
@@ -19,7 +66,7 @@ const download = {
 
 console.log(download);
 
-const warranty = {
+export const warranty = {
   title: '1-year warranty boost',
   texts: ['Paragraph 1', 'Paragraph 2'],
   image: {
@@ -30,7 +77,7 @@ const warranty = {
 
 console.log(warranty);
 
-const care = {
+export const care = {
   title: 'ZEN Care',
   texts: ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'],
   image: {
@@ -41,7 +88,7 @@ const care = {
 
 console.log(care);
 
-const cashback = {
+export const cashback = {
   title: 'and cashback!',
   texts: ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'],
   buttonText: 'Order a consultation',
@@ -49,7 +96,7 @@ const cashback = {
 
 console.log(cashback);
 
-const clients = {
+export const clients = {
   brands: [
     {
       lightSource: './assets/brands/light/1.svg',
@@ -96,7 +143,7 @@ const clients = {
 
 console.log(clients);
 
-const footer = {
+export const footer = {
   columns: [
     {
       title: 'Learn',

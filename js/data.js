@@ -1,4 +1,4 @@
-export const menu = {
+const menu = {
   navigation: [
     {
       text: 'Download',
@@ -43,9 +43,9 @@ export const menu = {
   },
 };
 
-console.log(menu);
+// console.log(menu);
 
-export const download = {
+const download = {
   title: 'Peaceful shopping mindful money',
   texts: ['Paragraph 1'],
   links: [
@@ -64,9 +64,9 @@ export const download = {
   },
 };
 
-console.log(download);
+// console.log(download);
 
-export const warranty = {
+const warranty = {
   title: '1-year warranty boost',
   texts: ['Paragraph 1', 'Paragraph 2'],
   image: {
@@ -75,9 +75,9 @@ export const warranty = {
   },
 };
 
-console.log(warranty);
+// console.log(warranty);
 
-export const care = {
+const care = {
   title: 'ZEN Care',
   texts: ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'],
   image: {
@@ -86,17 +86,17 @@ export const care = {
   },
 };
 
-console.log(care);
+// console.log(care);
 
-export const cashback = {
+const cashback = {
   title: 'and cashback!',
   texts: ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'],
   buttonText: 'Order a consultation',
 };
 
-console.log(cashback);
+// console.log(cashback);
 
-export const clients = {
+const clients = {
   brands: [
     {
       lightSource: './assets/brands/light/1.svg',
@@ -141,9 +141,9 @@ export const clients = {
   ],
 };
 
-console.log(clients);
+// console.log(clients);
 
-export const footer = {
+const footer = {
   columns: [
     {
       title: 'Learn',
@@ -244,4 +244,4 @@ export const footer = {
   },
 };
 
-console.log(footer);
+// console.log(footer);

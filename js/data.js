@@ -1,46 +1,46 @@
 const menu = {
   navigation: [
     {
-      text: 'Download',
-      anchor: '#download',
+      key: 'download',
+      name: 'Download',
     },
     {
-      text: 'Warranty',
-      anchor: '#warranty',
+      key: 'warranty',
+      name: 'Warranty',
     },
     {
-      text: 'Care',
-      anchor: '#care',
+      key: 'care',
+      name: 'Care',
     },
     {
-      text: 'Cashback',
-      anchor: '#cashback',
+      key: 'cashback',
+      name: 'Cashback',
     },
     {
-      text: 'Clients',
-      anchor: '#clients',
+      key: 'clients',
+      name: 'Clients',
     },
   ],
-  langButton: {
-    enButton: {
-      text: 'EN',
-      value: 'en',
+  langButton: [
+    {
+      key: 'EN',
+      name: 'en',
     },
-    ruButton: {
-      text: 'RU',
-      value: 'ru',
+    {
+      key: 'RU',
+      name: 'ru',
     },
-  },
-  themeButton: {
-    moonIcon: {
+  ],
+  themeButton: [
+    {
       source: './assets/icons/theme.svg',
-      description: 'moon',
+      name: 'moon',
     },
-    sunIcon: {
+    {
       source: '',
-      description: 'sun',
+      name: 'sun',
     },
-  },
+  ],
 };
 
 // console.log(menu);
@@ -50,12 +50,12 @@ const download = {
   texts: ['Paragraph 1'],
   links: [
     {
-      name: 'apple',
       url: 'https://apple.com',
+      content: './assets/icons/apple.svg',
     },
     {
-      name: 'google',
       url: 'https://google.com',
+      content: './assets/icons/google.svg',
     },
   ],
   image: {

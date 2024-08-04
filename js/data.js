@@ -51,11 +51,11 @@ const download = {
   links: [
     {
       url: 'https://apple.com',
-      content: './assets/icons/apple.svg',
+      name: 'apple',
     },
     {
       url: 'https://google.com',
-      content: './assets/icons/google.svg',
+      name: 'google',
     },
   ],
   image: {
@@ -99,44 +99,60 @@ const cashback = {
 const clients = {
   brands: [
     {
-      lightSource: './assets/brands/light/1.svg',
-      darkSource: './assets/brands/dark/1.svg',
-      description: 'Brand 1',
+      name: 'Rosegal',
+      logo: {
+        lightSource: './assets/brands/light/1.svg',
+        darkSource: './assets/brands/dark/1.svg',
+      },
     },
     {
-      lightSource: './assets/brands/light/2.svg',
-      darkSource: './assets/brands/dark/2.svg',
-      description: 'Brand 2',
+      name: 'Gearbest',
+      logo: {
+        lightSource: './assets/brands/light/2.svg',
+        darkSource: './assets/brands/dark/2.svg',
+      },
     },
     {
-      lightSource: './assets/brands/light/3.svg',
-      darkSource: './assets/brands/dark/3.svg',
-      description: 'Brand 3',
+      name: 'allegro',
+      logo: {
+        lightSource: './assets/brands/light/3.svg',
+        darkSource: './assets/brands/dark/3.svg',
+      },
     },
     {
-      lightSource: './assets/brands/light/4.svg',
-      darkSource: './assets/brands/dark/4.svg',
-      description: 'Brand 4',
+      name: 'AliExpress',
+      logo: {
+        lightSource: './assets/brands/light/4.svg',
+        darkSource: './assets/brands/dark/4.svg',
+      },
     },
     {
-      lightSource: './assets/brands/light/5.svg',
-      darkSource: './assets/brands/dark/5.svg',
-      description: 'Brand 5',
+      name: 'Booking.com',
+      logo: {
+        lightSource: './assets/brands/light/5.svg',
+        darkSource: './assets/brands/dark/5.svg',
+      },
     },
     {
-      lightSource: './assets/brands/light/6.svg',
-      darkSource: './assets/brands/dark/6.svg',
-      description: 'Brand 6',
+      name: 'MediaMarkt',
+      logo: {
+        lightSource: './assets/brands/light/6.svg',
+        darkSource: './assets/brands/dark/6.svg',
+      },
     },
     {
-      lightSource: './assets/brands/light/7.svg',
-      darkSource: './assets/brands/dark/7.svg',
-      description: 'Brand 7',
+      name: 'RTVeuroAGD',
+      logo: {
+        lightSource: './assets/brands/light/7.svg',
+        darkSource: './assets/brands/dark/7.svg',
+      },
     },
     {
-      lightSource: './assets/brands/light/8.svg',
-      darkSource: './assets/brands/dark/8.svg',
-      description: 'Brand 8',
+      name: 'Rosegal',
+      logo: {
+        lightSource: './assets/brands/light/8.svg',
+        darkSource: './assets/brands/dark/8.svg',
+      },
     },
   ],
 };

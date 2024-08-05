@@ -1,4 +1,4 @@
-const menu = {
+export const primaryInfo = {
   navigation: [
     {
       key: 'download',
@@ -43,9 +43,7 @@ const menu = {
   ],
 };
 
-// console.log(menu);
-
-const download = {
+export const download = {
   title: 'Peaceful shopping mindful money',
   texts: ['Paragraph 1'],
   links: [
@@ -64,9 +62,7 @@ const download = {
   },
 };
 
-// console.log(download);
-
-const warranty = {
+export const warranty = {
   title: '1-year warranty boost',
   texts: ['Paragraph 1', 'Paragraph 2'],
   image: {
@@ -75,9 +71,7 @@ const warranty = {
   },
 };
 
-// console.log(warranty);
-
-const care = {
+export const care = {
   title: 'ZEN Care',
   texts: ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'],
   image: {
@@ -86,17 +80,13 @@ const care = {
   },
 };
 
-// console.log(care);
-
-const cashback = {
+export const cashback = {
   title: 'and cashback!',
   texts: ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'],
   buttonText: 'Order a consultation',
 };
 
-// console.log(cashback);
-
-const clients = {
+export const clients = {
   brands: [
     {
       name: 'Rosegal',
@@ -157,32 +147,45 @@ const clients = {
   ],
 };
 
-// console.log(clients);
-
-const footer = {
-  columns: [
+export const secondaryInfo = {
+  categories: [
     {
-      title: 'Learn',
+      name: 'Learn',
       links: [
         {
-          text: 'Help center',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Help center',
+          }, 
         },
         {
-          text: 'Join ZEN team',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Join ZEN team',
+          },
         },
         {
-          text: 'Privacy Policy',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Privacy Policy',
+          },
         },
         {
-          text: 'Cookies',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Cookies',
+          }, 
         },
         {
-          text: 'Terms of use',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Terms of use',
+          },
         },
       ],
     },
@@ -190,16 +193,25 @@ const footer = {
       title: 'Discover',
       links: [
         {
-          text: 'For developers',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'For developers',
+          },
         },
         {
-          text: 'Apple Pay',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Apple Pay',
+          }, 
         },
         {
-          text: 'Google Pay',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Google Pay',
+          },
         },
       ],
     },
@@ -207,12 +219,18 @@ const footer = {
       title: 'Offer',
       links: [
         {
-          text: 'Business',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Business',
+          }, 
         },
         {
-          text: 'Personal',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Personal',
+          },
         },
       ],
     },
@@ -220,12 +238,18 @@ const footer = {
       title: 'Language',
       links: [
         {
-          text: 'English',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'English',
+          }, 
         },
         {
-          text: 'Polish',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Polish',
+          },
         },
       ],
     },
@@ -233,8 +257,11 @@ const footer = {
       title: 'Follow us',
       links: [
         {
-          source: './assets/icons/in.svg',
           url: 'https://',
+          content: {
+            type: 'image',
+            data: './assets/icons/in.svg',
+          }, 
         },
       ],
     },
@@ -242,22 +269,21 @@ const footer = {
       title: 'Contact',
       links: [
         {
-          text: 'hello@zen.com',
-          url: 'https://',
+          url: 'mailto:hello@zen.com',
+          content: {
+            type: 'text',
+            data: 'hello@zen.com',
+          }
         },
       ],
     },
   ],
-  info: {
-    texts: [
-      'Paragraph 1',
-      'Paragraph 2',
-      'Paragraph 3',
-      'Paragraph 4',
-      'Paragraph 5',
-      'Paragraph 6',
+  texts: [
+    'Paragraph 1',
+    'Paragraph 2',
+    'Paragraph 3',
+    'Paragraph 4',
+    'Paragraph 5',
+    'Paragraph 6',
     ],
-  },
-};
-
-// console.log(footer);
+}; 

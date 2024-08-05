@@ -1,61 +1,59 @@
-const menu = {
+export const primaryInfo = {
   navigation: [
     {
-      text: 'Download',
-      anchor: '#download',
+      key: 'download',
+      name: 'Download',
     },
     {
-      text: 'Warranty',
-      anchor: '#warranty',
+      key: 'warranty',
+      name: 'Warranty',
     },
     {
-      text: 'Care',
-      anchor: '#care',
+      key: 'care',
+      name: 'Care',
     },
     {
-      text: 'Cashback',
-      anchor: '#cashback',
+      key: 'cashback',
+      name: 'Cashback',
     },
     {
-      text: 'Clients',
-      anchor: '#clients',
+      key: 'clients',
+      name: 'Clients',
     },
   ],
-  langButton: {
-    enButton: {
-      text: 'EN',
-      value: 'en',
+  langButton: [
+    {
+      key: 'EN',
+      name: 'en',
     },
-    ruButton: {
-      text: 'RU',
-      value: 'ru',
+    {
+      key: 'RU',
+      name: 'ru',
     },
-  },
-  themeButton: {
-    moonIcon: {
+  ],
+  themeButton: [
+    {
       source: './assets/icons/theme.svg',
-      description: 'moon',
+      name: 'moon',
     },
-    sunIcon: {
+    {
       source: '',
-      description: 'sun',
+      name: 'sun',
     },
-  },
+  ],
 };
 
-// console.log(menu);
-
-const download = {
+export const download = {
   title: 'Peaceful shopping mindful money',
   texts: ['Paragraph 1'],
   links: [
     {
-      name: 'apple',
       url: 'https://apple.com',
+      name: 'apple',
     },
     {
-      name: 'google',
       url: 'https://google.com',
+      name: 'google',
     },
   ],
   image: {
@@ -64,9 +62,7 @@ const download = {
   },
 };
 
-// console.log(download);
-
-const warranty = {
+export const warranty = {
   title: '1-year warranty boost',
   texts: ['Paragraph 1', 'Paragraph 2'],
   image: {
@@ -75,9 +71,7 @@ const warranty = {
   },
 };
 
-// console.log(warranty);
-
-const care = {
+export const care = {
   title: 'ZEN Care',
   texts: ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'],
   image: {
@@ -86,87 +80,112 @@ const care = {
   },
 };
 
-// console.log(care);
-
-const cashback = {
+export const cashback = {
   title: 'and cashback!',
   texts: ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'],
   buttonText: 'Order a consultation',
 };
 
-// console.log(cashback);
-
-const clients = {
+export const clients = {
   brands: [
     {
-      lightSource: './assets/brands/light/1.svg',
-      darkSource: './assets/brands/dark/1.svg',
-      description: 'Brand 1',
+      name: 'Rosegal',
+      logo: {
+        lightSource: './assets/brands/light/1.svg',
+        darkSource: './assets/brands/dark/1.svg',
+      },
     },
     {
-      lightSource: './assets/brands/light/2.svg',
-      darkSource: './assets/brands/dark/2.svg',
-      description: 'Brand 2',
+      name: 'Gearbest',
+      logo: {
+        lightSource: './assets/brands/light/2.svg',
+        darkSource: './assets/brands/dark/2.svg',
+      },
     },
     {
-      lightSource: './assets/brands/light/3.svg',
-      darkSource: './assets/brands/dark/3.svg',
-      description: 'Brand 3',
+      name: 'allegro',
+      logo: {
+        lightSource: './assets/brands/light/3.svg',
+        darkSource: './assets/brands/dark/3.svg',
+      },
     },
     {
-      lightSource: './assets/brands/light/4.svg',
-      darkSource: './assets/brands/dark/4.svg',
-      description: 'Brand 4',
+      name: 'AliExpress',
+      logo: {
+        lightSource: './assets/brands/light/4.svg',
+        darkSource: './assets/brands/dark/4.svg',
+      },
     },
     {
-      lightSource: './assets/brands/light/5.svg',
-      darkSource: './assets/brands/dark/5.svg',
-      description: 'Brand 5',
+      name: 'Booking.com',
+      logo: {
+        lightSource: './assets/brands/light/5.svg',
+        darkSource: './assets/brands/dark/5.svg',
+      },
     },
     {
-      lightSource: './assets/brands/light/6.svg',
-      darkSource: './assets/brands/dark/6.svg',
-      description: 'Brand 6',
+      name: 'MediaMarkt',
+      logo: {
+        lightSource: './assets/brands/light/6.svg',
+        darkSource: './assets/brands/dark/6.svg',
+      },
     },
     {
-      lightSource: './assets/brands/light/7.svg',
-      darkSource: './assets/brands/dark/7.svg',
-      description: 'Brand 7',
+      name: 'RTVeuroAGD',
+      logo: {
+        lightSource: './assets/brands/light/7.svg',
+        darkSource: './assets/brands/dark/7.svg',
+      },
     },
     {
-      lightSource: './assets/brands/light/8.svg',
-      darkSource: './assets/brands/dark/8.svg',
-      description: 'Brand 8',
+      name: 'Rosegal',
+      logo: {
+        lightSource: './assets/brands/light/8.svg',
+        darkSource: './assets/brands/dark/8.svg',
+      },
     },
   ],
 };
 
-// console.log(clients);
-
-const footer = {
-  columns: [
+export const secondaryInfo = {
+  categories: [
     {
-      title: 'Learn',
+      name: 'Learn',
       links: [
         {
-          text: 'Help center',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Help center',
+          }, 
         },
         {
-          text: 'Join ZEN team',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Join ZEN team',
+          },
         },
         {
-          text: 'Privacy Policy',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Privacy Policy',
+          },
         },
         {
-          text: 'Cookies',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Cookies',
+          }, 
         },
         {
-          text: 'Terms of use',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Terms of use',
+          },
         },
       ],
     },
@@ -174,16 +193,25 @@ const footer = {
       title: 'Discover',
       links: [
         {
-          text: 'For developers',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'For developers',
+          },
         },
         {
-          text: 'Apple Pay',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Apple Pay',
+          }, 
         },
         {
-          text: 'Google Pay',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Google Pay',
+          },
         },
       ],
     },
@@ -191,12 +219,18 @@ const footer = {
       title: 'Offer',
       links: [
         {
-          text: 'Business',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Business',
+          }, 
         },
         {
-          text: 'Personal',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Personal',
+          },
         },
       ],
     },
@@ -204,12 +238,18 @@ const footer = {
       title: 'Language',
       links: [
         {
-          text: 'English',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'English',
+          }, 
         },
         {
-          text: 'Polish',
           url: 'https://',
+          content: {
+            type: 'text',
+            data: 'Polish',
+          },
         },
       ],
     },
@@ -217,8 +257,11 @@ const footer = {
       title: 'Follow us',
       links: [
         {
-          source: './assets/icons/in.svg',
           url: 'https://',
+          content: {
+            type: 'image',
+            data: './assets/icons/in.svg',
+          }, 
         },
       ],
     },
@@ -226,22 +269,21 @@ const footer = {
       title: 'Contact',
       links: [
         {
-          text: 'hello@zen.com',
-          url: 'https://',
+          url: 'mailto:hello@zen.com',
+          content: {
+            type: 'text',
+            data: 'hello@zen.com',
+          }
         },
       ],
     },
   ],
-  info: {
-    texts: [
-      'Paragraph 1',
-      'Paragraph 2',
-      'Paragraph 3',
-      'Paragraph 4',
-      'Paragraph 5',
-      'Paragraph 6',
+  texts: [
+    'Paragraph 1',
+    'Paragraph 2',
+    'Paragraph 3',
+    'Paragraph 4',
+    'Paragraph 5',
+    'Paragraph 6',
     ],
-  },
-};
-
-// console.log(footer);
+}; 
